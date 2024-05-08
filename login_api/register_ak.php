@@ -15,8 +15,8 @@ if(isset($_POST['nama']) && isset($_POST['password'])) {
     // conf koneksi db
     $servername = "localhost";
     $username = "root";
-    $dbpassword = "123456"; 
-    $dbname = "kemahasiswaan";
+    $dbpassword = "pass"; 
+    $dbname = "nama_database";
 
     // Create connection
     $conn = new mysqli($servername, $username, $dbpassword, $dbname);
